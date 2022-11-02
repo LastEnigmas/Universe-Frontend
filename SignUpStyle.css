@@ -1,5 +1,8 @@
 body{
 
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 
 
 
@@ -10,7 +13,7 @@ body{
 .earthy{
     /*change to source */
     background-image: url("img/earthedit.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: top;
 
@@ -30,10 +33,9 @@ body{
 #astsvg{
     width: 70px;
     height: 70px;
-    margin-left: 2%;
-    margin-right: 10px;
-    top: 9%;
-    left:25%;
+    position: fixed;
+    bottom: 100px;
+    right:100px;
     transform: scale(1);
     transition-timing-function: ease-in-out;
     transition: 2s;
@@ -67,6 +69,77 @@ body{
 
 
 @media only screen and (max-width: 780px) {
+    .themes{
+        display: none;
+    }
+    body{
+        /*change to source */
+        background-image: none;
+        background-color:  #2a2b2b;
+        overflow: scroll;
+
+
+
+
+
+    }
+    #astsvg{
+        display: none;
+
+
+
+    }
+
+    #haveaccountbtn{
+        top: 90%;
+        left: 32%;
+
+    }
+
+
+    #signUptext{
+
+        margin-left: 5%;
+
+
+        font-size: 50px;
+        font-family:'Libre Barcode 128 Text', serif;
+
+
+    }
+    .earthy{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+
+    }
+    .mars{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+
+    }
+    .moony{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+
+    }
+
+}
+
+@media  screen and (min-height: 768px) and (max-width:1023px) {
+
     .themes{
         display: none;
     }
@@ -129,24 +202,6 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
-
-
-    }
-
-}
-
-@media  screen and (min-height: 800px){
-
-    html{
-
-
-
-
-    }
-    #signUptext{
-
-        margin-left: 10%;
-
 
 
     }
