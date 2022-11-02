@@ -37,7 +37,7 @@ $(document).ready( function () {
         $("#signUptext").removeClass("text-warning text-light");
         $("#signUptext").addClass("text-primary");
 
-        $("#formDiv").css("margin-top","4%");
+        $("#formDiv").css("margin-top","1%");
 
         $("#signUpbtn").removeClass("btn-warning btn-dark");
         $("#signUpbtn").addClass("btn-primary");
@@ -66,7 +66,7 @@ $(document).ready( function () {
         $("#signUptext").addClass("text-light");
         $("#signUptext").removeClass("text-primary text-warning");
 
-        $("#formDiv").css("margin-top","0%");
+        $("#formDiv").css("margin-top","1%");
 
         $("#signUpbtn").addClass("btn-dark");
         $("#signUpbtn").removeClass("btn-primary btn-warning");
