@@ -1,25 +1,71 @@
 body{
+
+
+
+
+
+
+}
+html{
+    /*change to source */
     background-image: url("img/earthedit.jpg");
-    background-repeat: no-repeat;
+    background-repeat: space;
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-
     z-index: -1;
 
 }
-#mDiv{
-    height: 100%;
-    width: 100%;
+
+@media only screen and (max-width: 768px) {
+
+
+    #signUptext{
+
+        margin-left: 5%;
+
+
+        font-size: 50px;
+        font-family:'Libre Barcode 128 Text', serif;
+
+
+    }
+
+}
+
+@media  screen and (min-height: 900px){
+
+    html{
+        /*change to source */
+        background-image: url("img/earthedit.jpg");
+        background-repeat: space;
+        background-size: cover;
+        background-position: top;
+        background-blend-mode: multiply;
+      backdrop-filter: invert(90%);
+
+
+
+    }
+    #signUptext{
+
+        margin-left: 10%;
+
+
+
+    }
 
 
 }
 
+
 #signUptext{
-  text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-    font-family: 'Space Grotesk', serif;
+  text-align: left;
+    margin-left: 5%;
+    margin-top: 6%;
+
+    font-size: 70px;
+    font-family:'Libre Barcode 128 Text', 'Space Grotesk', serif;
 
 
 }
