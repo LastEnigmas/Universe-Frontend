@@ -73,4 +73,19 @@ $(document).ready( function () {
 
     });
 
+    $("#signUpbtn").click(function () {
+        let valid= '@(ViewBag.IsTrue)';
+
+        let toastmessages=document.getElementById("liveToast");
+
+        let toast=new bootstrap.Toast(toastmessages);
+        toast.show();
+
+
+
+
+
+
+    });
+
 });
