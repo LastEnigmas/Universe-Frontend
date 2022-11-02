@@ -31,12 +31,12 @@
 
 
 
-<div id="formDiv" class="container d-flex flex-column flex-wrap justify-content-center align-content-center mx-auto my-5 ">
+<div id="formDiv" class="container d-flex flex-column flex-wrap justify-content-center align-content-center mx-auto " style="margin-top: 3%;">
   <form asp-area="Main" asp-controller="MainHome" asp-action="SignUp" method="post">
-    <div class="input-group m-4 ">
+    <div class="input-group m-4 " style="width: 300px;">
       <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input id="usersignup" asp-for="Username" required type="name" class="form-control rounded-end" required style="width: 210px;" placeholder="Username"/>
-      <label for="usersignup">Username</label>
+      <input id="usersignup" asp-for="Username" required type="name" class="form-control rounded-end" required  placeholder="Username"/>
+
 
     </div>
     <div class="form-floating  m-4">
