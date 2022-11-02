@@ -88,4 +88,12 @@ $(document).ready( function () {
 
     });
 
+    $("#signUptext").fadeTo(200,0.3)
+        .fadeTo(200,1.0)
+        .fadeTo(200,0.3)
+        .fadeTo(200,1.0);
+
+
+
 });
+

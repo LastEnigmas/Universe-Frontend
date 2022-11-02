@@ -27,11 +27,31 @@ body{
 
 }
 
+#astsvg{
+    width: 70px;
+    height: 70px;
+    margin-left: 2%;
+    margin-right: 10px;
+    top: 9%;
+    left:25%;
+    transform: scale(1);
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+
+
+
+}
+#astsvg:hover{
+    transform: scale(3.5);
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+
+}
 
 
 #haveaccountbtn{
     margin-left: 1%;
-    top: 30%;
+    top: 40%;
     left: 5%
 }
 .moony{
@@ -43,6 +63,8 @@ body{
 
 
 }
+
+
 
 @media only screen and (max-width: 780px) {
     .themes{
