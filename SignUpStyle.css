@@ -5,30 +5,63 @@ body{
 
 
 
+
 }
-html{
+.earthy{
     /*change to source */
     background-image: url("img/earthedit.jpg");
-    background-repeat: space;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
-    z-index: -1;
+    background-position: top;
+
+
+
+}
+.mars{
+    /*change to source */
+    background-image: url("img/marsedited.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+}
+
+
+
+#haveaccountbtn{
+    margin-left: 1%;
+    top: 30%;
+    left: 5%
+}
+.moony{
+    /*change to source */
+    background-image: url("img/mooneedited.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
 
 }
 
 @media only screen and (max-width: 780px) {
-    html{
+    .themes{
+        display: none;
+    }
+    body{
         /*change to source */
         background-image: none;
         background-color:  #2a2b2b;
-        background-repeat: space;
-        background-size: cover;
-        background-position: top;
-        background-blend-mode: multiply;
-        backdrop-filter: invert(90%);
 
 
+
+
+
+    }
+
+    #haveaccountbtn{
+        top: 90%;
+        left: 32%;
 
     }
 
@@ -43,19 +76,41 @@ html{
 
 
     }
+    .earthy{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+
+    }
+    .mars{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+
+    }
+    .moony{
+        /*change to source */
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+
+    }
 
 }
 
 @media  screen and (min-height: 800px){
 
     html{
-        /*change to source */
-        background-image: url("img/earthedit.jpg");
-        background-repeat: space;
-        background-size: cover;
-        background-position: top;
-        background-blend-mode: multiply;
-      backdrop-filter: invert(90%);
+
 
 
 
