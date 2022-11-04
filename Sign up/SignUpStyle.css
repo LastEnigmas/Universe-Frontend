@@ -11,7 +11,7 @@ body{
 
 }
 .earthy{
-    /*change to source */
+    /*change to source to eath pic in img folder*/
     background-image: url("../img/earthedit.jpg");
     background-repeat: repeat-y;
     background-size: cover;
