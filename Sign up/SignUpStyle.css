@@ -12,7 +12,7 @@ body{
 }
 .earthy{
     /*change to source */
-    background-image: url("img/earthedit.jpg");
+    background-image: url("../img/earthedit.jpg");
     background-repeat: repeat-y;
     background-size: cover;
     background-position: top;
@@ -22,7 +22,7 @@ body{
 }
 .mars{
     /*change to source */
-    background-image: url("img/marsedited.jpg");
+    background-image: url("../img/marsedited.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -58,7 +58,7 @@ body{
 }
 .moony{
     /*change to source */
-    background-image: url("img/mooneedited.jpg");
+    background-image: url("../img/mooneedited.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
