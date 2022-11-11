@@ -13,9 +13,11 @@ body{
 .earthy{
     /*change to source to eath pic in img folder*/
     background-image: url("../img/earthedit.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    width: 100vw;
+    height: 100vh;
 
 
 
@@ -26,29 +28,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    width: 100vw;
+    height: 100vh;
 
 
 }
 
-#astsvg{
-    width: 70px;
-    height: 70px;
-    position: fixed;
-    bottom: 100px;
-    right:100px;
-    transform: scale(1);
-    transition-timing-function: ease-in-out;
-    transition: 2s;
 
-
-
-}
-#astsvg:hover{
-    transform: scale(3.5);
-    transition-timing-function: ease-in-out;
-    transition: 2s;
-
-}
 
 
 #haveaccountbtn{
@@ -62,6 +48,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    width: 100vw;
+    height: 100vh;
 
 
 }
