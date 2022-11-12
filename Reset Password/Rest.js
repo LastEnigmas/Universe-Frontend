@@ -27,5 +27,14 @@ function processNewOPassword(){
     $("#code").css("display","none");
     $("#submitCode").css("display","none");
 
+    $("#newPassForm").css({
+        display:'flex',
+        "flex-direction":'column',
+        "justify-content": 'center',
+        "align-items":'center',
+        "flex-wrap": "wrap"
+
+    });
+
 }
 
